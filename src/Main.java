@@ -108,9 +108,9 @@ public class Main {
         byte period = 79;
         int timePrileta = 0;
         //Расчёт времнени прилёта кометы за последние 200 летот тнкущего года.
-        for(int i = 0; i < year + 100; i += 79 ) {
+        for(int i = 0; i < year + 21; i += 79 ) {
             timePrileta = period + timePrileta;
-            // Расчёт времкни следующего прилёта кометы (2054 год.)
+            // Расчёт времени следующего прилёта кометы (2054 год.)
             if (year - 200 < timePrileta) {
                 System.out.println("Год прилета кометы -  " + timePrileta);
             }
